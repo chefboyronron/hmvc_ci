@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* =========================================================
+top
+========================================================= */
+
+#gNav ul li.top {
+	background-position: left bottom;
+}
+
+
+.top-contents #contents .intro {
+	margin-bottom: 30px;
+}
+.top-contents #contents .intro .intr0_content {
+	margin-top: 12px;
+}
+
+.top-contents #contents #news {
+	width: 435px;
+}
+.top-contents #contents #news .box {
+	height: 176px;
+	overflow: scroll;
+	border: solid 1px #bebebe;
+	border-top: none;
+	padding: 10px 10px 2px;
+}
+.top-contents #contents #news .box li {
+	margin-bottom: 8px;
+}
+
+.top-contents #contents #news .box li .date {
+	width: 100px;
+}
+.top-contents #contents #news .box li .text {
+	width: 290px;
+	color: #5F5F5F !important;
+    text-decoration: none;
+}
+.top-contents #contents #news .box li .text:hover {
+	width: 290px;
+	color: #5F5F5F !important;
+    text-decoration: underline;
+}
+.top-contents #contents #news h2 {
+	background-color: #187fc4;
+}
+.top-contents #contents #news h2 .rightBox {
+	margin: -3px 10px 0 0;
+}
+
+.top-contents #contents #about {
+	width: 434px;
+}
+.top-contents #contents #about p img {
+	margin-left: 18px;
+}
+
+#contents #contact ul {
+	border: none;
+}
+.donate-btn-container{
+	height: 100px;
+	margin-top: 60px;
+}
+a.btn-donate{
+	background: #CC66FF;
+	border: 1px solid #D175FF;
+	box-shadow: 1px 1px 10px #D175FF,-1px -1px 10px #D175FF;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 8px 26px 8px 26px;
+	text-decoration: none !important;
+}
+a.btn-donate hover, a.btn-donate active{
+	text-decoration: none !important;
+	color: #FF0000 !important;
+}
